@@ -1,6 +1,6 @@
 # Digital Filter Design
 ## Project's Goal
-The objective of this project is to provide an overview of the fundamentals of designing digital filters. Using MATLAB, I have included a comprehensive example of designing an IIR digital filter using a specific mapping method. This method has been selected from a range of mapping techniques that will be explained in detail throughout this document.
+The objective of this project is to provide an overview of the fundamentals of designing digital filters. In this document, I have included a comprehensive example of designing an IIR digital filter using a specific mapping method. This method has been selected from a range of two mapping techniques that will be explained throughout this document. In the MATLAB code, I implemented both methods.
 
 ## Filter in Signal Processing
 In signal processing, a filter is a device or process that removes some unwanted components or features from a signal. Most often, this means removing some frequencies or frequency bands.
@@ -25,7 +25,7 @@ The difference between these filter families is that they all use a different po
 In signal processing and control theory, the impulse response function (IRF) ${h(t)}$ of a dynamic system is its output when presented with a brief input signal, called an impulse ${\delta(t)}$
 
 ## Infinite Impulse Response (IIR) Filters
-It is a **recursive** filter in that the output from the filter is computed by using the current and previous inputs and previous outputs
+It is a **recursive** filter in that the output from the filter is computed by using the current and previous inputs and previous outputs. In other words, its impulse response never go down to zero
 
 ### Mathemetical Representation and Transfer Function
 <img src="https://user-images.githubusercontent.com/89732669/230771816-48a0ed95-5a5d-4bd3-92d6-e308c3adcbfe.png" width="400"> 
