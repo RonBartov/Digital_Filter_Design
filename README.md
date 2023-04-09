@@ -21,7 +21,7 @@ The difference between these filter families is that they all use a different po
 ## The Impulse Response
 In signal processing and control theory, the impulse response function (IRF) ${h(t)}$ of a dynamic system is its output when presented with a brief input signal, called an impulse ${\delta(t)}$
 
-## Infinite impulse response (IIR) Filters
+## Infinite Impulse Response (IIR) Filters
 It is a **recursive** filter in that the output from the filter is computed by using the current and previous inputs and previous outputs
 
 ### Mathemetical Representation and Transfer Function
@@ -29,5 +29,12 @@ It is a **recursive** filter in that the output from the filter is computed by u
 
 <img src="https://user-images.githubusercontent.com/89732669/230771920-841d127c-d1cf-4979-a2f6-4d6df84028a6.png" width="190">
 
+## Finite Impulse Response (FIR) Filters
+It is a filter whose impulse response is of finite duration, because it settles to zero in finite time
+
+### Mathemetical Representation and Transfer Function
+<img src="https://user-images.githubusercontent.com/89732669/230773104-937c5c6c-3d9d-42fe-bf10-c3ce818acae5.png" width="400"> 
+
+<img src="https://user-images.githubusercontent.com/89732669/230773242-85ca1b31-6e7e-4956-b611-2bf627ee7ce7.png" width="140"> 
 
 
