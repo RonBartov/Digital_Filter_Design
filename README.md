@@ -1,4 +1,7 @@
 # Digital Filter Design
+## Project's Goal
+The objective of this project is to provide an overview of the fundamentals of designing digital filters. Using MATLAB, I have included a comprehensive example of designing an IIR digital filter using a specific mapping method. This method has been selected from a range of mapping techniques that will be explained in detail throughout this document.
+
 ## Filter in Signal Processing
 In signal processing, a filter is a device or process that removes some unwanted components or features from a signal. Most often, this means removing some frequencies or frequency bands.
 
@@ -37,4 +40,24 @@ It is a filter whose impulse response is of finite duration, because it settles 
 
 <img src="https://user-images.githubusercontent.com/89732669/230773242-85ca1b31-6e7e-4956-b611-2bf627ee7ce7.png" width="140"> 
 
+
+## Implementing IIR Digital Filter
+### The Approach 
+Using a mapping from an analog filter ${H_a(s)}$ to a digital filter ${H(z)}$ under the following restrictions: <br>
+1) The behaviour of ${H(z)}$ on the unit circle will be similar to the behaviour of ${H_a(s)}$ on the imaginary axis <br>
+2) To preserve causality and stability
+
+### The Methods
+**Impulse Invariance** <br>
+The full block diagram <br>
+<img src="https://user-images.githubusercontent.com/89732669/230778451-884c2ebe-26c7-4ae6-a346-4258652a1b6c.png" width="350"> 
+
+The **poles** mapping <br>
+<img src="https://user-images.githubusercontent.com/89732669/230778098-90240eeb-5486-4b1c-8c82-5d18edb91d1b.png" width="350"> 
+
+**Impulse Invariance** <br>
+The **planes** mapping <br>
+<img src="https://user-images.githubusercontent.com/89732669/230779623-e3e67793-6d27-4374-b8d4-318a3613c0b4.png" width="350">
+
+## Example on Butterworth Analog Filter
 
